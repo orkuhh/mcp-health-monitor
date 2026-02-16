@@ -1,0 +1,18 @@
+{
+  "name": "mcp-health-monitor",
+  "version": "1.0.0",
+  "description": "MCP server for monitoring and managing other MCP server health",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "ts-node src/server.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.26.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "ts-node": "^10.9.0"
+  }
+}
